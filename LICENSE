@@ -1,4 +1,4 @@
-RACE is a PowerShell module to execute ACL attacks against Windows targets.
+RACE is a PowerShell module for executing ACL attacks against Windows targets.
 
 Copyright (C) 2019  Nikhil "SamratAshok" Mittal
 
