@@ -17,7 +17,7 @@ PS C:\> . C:\RACE-master\RACE.ps1
 ```
 Download and execute
 ```powershell
-iex (New-Object Net.WebClient).DownloadString('')
+iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/samratashok/RACE/master/RACE.ps1')
 ```
 
 Get help about any function
