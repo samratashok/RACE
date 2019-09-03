@@ -1,4 +1,4 @@
-﻿<#
+<#
 
 File: RACE.ps1
 Author: Nikhil Mittal (@nikhil_mitt)
@@ -4052,4 +4052,5 @@ http://moyix.blogspot.com/2008/02/decrypting-lsa-secrets.html
 ## END OF Directly from DAMP Toolkit ##
 
 ###########################################################################
+
 
